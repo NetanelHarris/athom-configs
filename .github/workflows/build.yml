@@ -16,8 +16,7 @@ jobs:
           - smart-plug-v2
         esphome:
           - latest
-          - beta
-          - dev
+
 
     container: ghcr.io/esphome/esphome:${{ matrix.esphome }}
     steps:
